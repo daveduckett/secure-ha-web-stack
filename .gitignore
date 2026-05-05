@@ -1,0 +1,19 @@
+# Local .terraform folder (contains binaries/providers)
+.terraform/
+
+# State files (Highly sensitive!)
+*.tfstate
+*.tfstate.backup
+
+# Variables files (often contain secrets)
+*.tfvars
+*.tfvars.json
+
+# Crash logs
+crash.log
+
+# Ignore Python Virtual Environment 
+.project2/
+
+# MAC file
+.DS_Store
